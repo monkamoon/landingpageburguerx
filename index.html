@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lan="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+
+        <!--ícones-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--Link CSS-->
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon.ico">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <title>Burger X</title>
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="cardapio/Cardápio.pdf" target="_blank" class="nav__logo">Nossos lanches</a>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Início</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="contato/contato.html" target="_blank" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--Home-->
+            <section class="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="img/img1.png.png" alt="lanchinho" class="move" data-speed:="2">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Burger X</h1>
+                        <p class="home__descricao">
+                            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=200&size=26&duration=3000&pause=5000&color=F7F7F7&random=false&width=435&lines=Aqui+voc%C3%AA+encontra+os+lanches+;mais+saborosos!" alt="Typing SVG" /></a>
+                        </p>
+                        <a href="https://wa.me/5511959367934" target="_blank" class="home__button">Peça já o seu!</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== gsap =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+         <!--Js-->
+         <script src="js/main.js"></script>
+
+    </body>
+</html>
